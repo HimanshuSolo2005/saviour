@@ -79,7 +79,7 @@ iface = gr.Interface(
     inputs=gr.Textbox(lines=2, placeholder="Ask me"),
     outputs="text",
     title="Knowledge Chatbot",
-    description="Chat with your OS subject."
+    description="Chat with your subject."
 )
 
 if __name__ == "__main__":
